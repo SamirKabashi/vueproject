@@ -4,6 +4,9 @@ import CartPage from '../views/CartPage.vue';
 import ProductDetailPage from '../views/ProductDetailPage.vue';
 import ProductsPage from '../views/ProductsPage.vue';
 import NotFoundPage from '../views/NotFoundPage.vue';
+// import Login from '../components/auth/Login.vue';
+// import firebase from '@/Firebase';
+// import store from './store'
 
 Vue.use(VueRouter)
 
@@ -12,7 +15,13 @@ const routes = [
     path: '/products',
     name: 'Products',
     component: ProductsPage,
-  }, {
+  },
+  // {
+  //   path: '/Login',
+  //   name: 'Login',
+  //   component: Login,
+  // },
+  {
     path: '/products/:id',
     name: 'ProductDetail',
     component: ProductDetailPage,
@@ -23,9 +32,9 @@ const routes = [
   }, {
     path: '/',
     redirect: '/products',
-  },{
+  }, {
     path: '*',
-    component: NotFoundPage, 
+    component: NotFoundPage,
   }
 ]
 
