@@ -4,4 +4,3 @@ Ky projekte eshte realizuar per lenden Zhvillimi dhe Dizajnimi i Ueb, lende e se
 
 Project Leader : Samir Kabashi
  
-Member : Armend Thaçi
